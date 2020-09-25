@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b739465ef15b3f4685be0f44f782c5a, type: 3}
+  m_Name: BaseMatch
+  m_EditorClassIdentifier: 
+  MapSize: {x: 15, y: 10}
+  PlayerConfigs:
+  - PlayerType: 0
+    AIType: 3
+    Units:
+    - UnitType: 0
+      SpawnPosition: {x: 0, y: 0}
+    - UnitType: 1
+      SpawnPosition: {x: 0, y: 1}
+    - UnitType: 2
+      SpawnPosition: {x: 1, y: 0}
+  - PlayerType: 1
+    AIType: 2
+    Units:
+    - UnitType: 0
+      SpawnPosition: {x: 9, y: 9}
+    - UnitType: 1
+      SpawnPosition: {x: 9, y: 8}
+    - UnitType: 2
+      SpawnPosition: {x: 8, y: 9}
